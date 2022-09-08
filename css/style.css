@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header{
+    display: flexbox;
+    text-align: right;
+}
+
+.menu{
+    display: inline-block;
+    flex-wrap: nowrap;
+}
+.menu ul{
+    display: inline-block;
+    align-content: right;
+}
+.menu ul li{
+    display: inline-block;
+    align-content: right;
+    margin: 1em;
+}
+.menu ul li a{
+    display: inline-block;
+    align-content: right;
+    text-decoration: none;
+}
+.menu ul li a button{
+    background-color: rgb(66, 133, 244);
+    border-color: rgb(66, 133, 244);
+    color: white;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
